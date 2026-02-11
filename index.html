@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ruby Jean Montemayor | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#F2EFEA',
+            tan: '#C9B29C',
+            burgundy: '#7A2E3A',
+            brown: '#3A1F1F'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-cream text-brown font-sans">
+
+<!-- NAVIGATION -->
+<header class="bg-cream border-b border-tan sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="font-semibold text-lg">Ruby Jean</h1>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="#home" class="hover:text-burgundy">Home</a>
+      <a href="#experience" class="hover:text-burgundy">Work Experience</a>
+      <a href="#contact" class="hover:text-burgundy">Contact Me</a>
+    </nav>
+
+    <!-- Mobile Button -->
+    <button id="menuBtn" class="md:hidden text-2xl">&#9776;</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden px-4 pb-4 space-y-2">
+    <a href="#home" class="block">Home</a>
+    <a href="#experience" class="block">Work Experience</a>
+    <a href="#contact" class="block">Contact Me</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10">
+  <!-- Image -->
+  <div class="md:w-1/2">
+    <img src="images/portfolio_picture.png" alt="Ruby Jean Montemayor"
+         class="rounded-lg shadow-md w-full max-w-sm mx-auto">
+  </div>
+
+  <!-- Text -->
+  <div class="md:w-1/2">
+    <h2 class="text-3xl font-bold text-burgundy mb-4">
+      Ruby Jean C. Montemayor
+    </h2>
+    <p class="mb-4">
+      Administrative • Human Resources • Customer Service • Real Estate • Graphic Design
+    </p>
+    <p class="text-sm leading-relaxed">
+      I am seeking a strategic role that allows me to leverage my skills and experience
+      to contribute meaningfully to a collaborative team, driving innovation and achieving
+      significant results.
+    </p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="bg-white py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold text-burgundy mb-8">Work Experience</h3>
+
+    <div class="space-y-6">
+
+      <div>
+        <h4 class="font-semibold">Property Manager Assistant (Remote, Project-Based)</h4>
+        <p class="text-sm text-tan">Regex Property Management | May 2025 – January 2026</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Human Resource / Account Supervisor</h4>
+        <p class="text-sm text-tan">SPD Jobs Inc | March 2025 – December 2025</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Human Resources / Admin Supervisor</h4>
+        <p class="text-sm text-tan">A&S Subic Inc | April 2024 – February 2025</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Real Estate Admin (Remote)</h4>
+        <p class="text-sm text-tan">Smith | Garcia Realty | March 2022 – April 2025</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Human Resources / Admin Officer</h4>
+        <p class="text-sm text-tan">Grand Hoyah Hotel | January 2021 – February 2022</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Executive Assistant / Human Resources Officer</h4>
+        <p class="text-sm text-tan">ACEA Subic Bay | May 2017 – September 2020</p>
+      </div>
+
+      <!-- FB-BASED EXPERIENCE -->
+      <div class="pt-6 border-t border-tan">
+        <h4 class="font-semibold">Administrative & Virtual Support Services</h4>
+        <p class="text-sm text-tan">Freelance / Online</p>
+        <p class="text-sm mt-2">
+          Providing administrative support, HR assistance, real estate coordination,
+          document management, scheduling, and client communication using tools such as
+          Google Workspace, Canva, DocuSign, Monday.com, and Microsoft Office.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-16 max-w-6xl mx-auto px-4">
+  <h3 class="text-2xl font-semibold text-burgundy mb-6">Contact Me</h3>
+
+  <div class="space-y-2 text-sm">
+    <p>Email: <a href="mailto:monterubyjean@gmail.com" class="text-burgundy">monterubyjean@gmail.com</a></p>
+    <p>Phone: +63 946 707 0045</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-brown text-cream text-center py-4 text-xs">
+  © 2026 Ruby Jean Montemayor
+</footer>
+
+<script>
+  const btn = document.getElementById('menuBtn');
+  const menu = document.getElementById('mobileMenu');
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
