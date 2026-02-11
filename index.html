@@ -28,46 +28,50 @@
   <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
     <h1 class="font-semibold text-lg">Ruby Jean</h1>
 
-    <!-- Desktop Nav -->
     <nav class="hidden md:flex space-x-8">
       <a href="#home" class="hover:text-burgundy">Home</a>
       <a href="#experience" class="hover:text-burgundy">Work Experience</a>
-      <a href="#contact" class="hover:text-burgundy">Contact Me</a>
+      <a href="#portfolio" class="hover:text-burgundy">Portfolio</a>
+      <a href="#skills" class="hover:text-burgundy">Skills</a>
+      <a href="#contact" class="hover:text-burgundy">Contact</a>
     </nav>
 
-    <!-- Mobile Button -->
     <button id="menuBtn" class="md:hidden text-2xl">&#9776;</button>
   </div>
 
-  <!-- Mobile Menu -->
   <div id="mobileMenu" class="hidden md:hidden px-4 pb-4 space-y-2">
     <a href="#home" class="block">Home</a>
     <a href="#experience" class="block">Work Experience</a>
-    <a href="#contact" class="block">Contact Me</a>
+    <a href="#portfolio" class="block">Portfolio</a>
+    <a href="#skills" class="block">Skills</a>
+    <a href="#contact" class="block">Contact</a>
   </div>
 </header>
 
 <!-- HERO -->
 <section id="home" class="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10">
-  <!-- Image -->
   <div class="md:w-1/2">
     <img src="images/portfolio_picture.png" alt="Ruby Jean Montemayor"
          class="rounded-lg shadow-md w-full max-w-sm mx-auto">
   </div>
 
-  <!-- Text -->
   <div class="md:w-1/2">
     <h2 class="text-3xl font-bold text-burgundy mb-4">
       Ruby Jean C. Montemayor
     </h2>
-    <p class="mb-4">
-      Administrative • Human Resources • Customer Service • Real Estate • Graphic Design
+    <p class="mb-4 font-medium">
+      Property Management • Administrative Support • Human Resources • Real Estate Marketing
     </p>
-    <p class="text-sm leading-relaxed">
-      I am seeking a strategic role that allows me to leverage my skills and experience
-      to contribute meaningfully to a collaborative team, driving innovation and achieving
-      significant results.
+    <p class="text-sm leading-relaxed mb-4">
+      Detail-oriented Property Management and Administrative Professional with experience in 
+      remote property coordination, digital marketing, tenant communication, and documentation support. 
+      Skilled in managing listings, client engagement, and administrative workflows to improve 
+      operational efficiency and drive occupancy results.
     </p>
+
+    <a href="#contact" class="inline-block bg-burgundy text-cream px-6 py-2 rounded shadow">
+      Hire Me
+    </a>
   </div>
 </section>
 
@@ -76,49 +80,189 @@
   <div class="max-w-6xl mx-auto px-4">
     <h3 class="text-2xl font-semibold text-burgundy mb-8">Work Experience</h3>
 
-    <div class="space-y-6">
+    <!-- Property Manager Assistant -->
+    <div class="bg-cream p-6 rounded-lg shadow-sm mb-10">
+      <h4 class="font-semibold text-lg">
+        Property Management Assistant (Remote, Project-Based)
+      </h4>
+      <p class="text-sm text-tan mb-4">
+        Regex Property Management | May 2025 – January 2026
+      </p>
 
-      <div>
-        <h4 class="font-semibold">Property Manager Assistant (Remote, Project-Based)</h4>
-        <p class="text-sm text-tan">Regex Property Management | May 2025 – January 2026</p>
+      <ul class="list-disc ml-5 text-sm space-y-2">
+        <li>Managed and optimized property listings across Facebook and digital platforms.</li>
+        <li>Created engaging marketing posts, captions, and visuals using Canva.</li>
+        <li>Handled client inquiries and maintained prompt communication response times.</li>
+        <li>Coordinated appointment scheduling and tenant follow-ups.</li>
+        <li>Supported lease documentation and tenant onboarding processes.</li>
+      </ul>
+
+      <div class="mt-4 text-sm">
+        <p class="font-semibold text-burgundy mb-2">Key Contributions:</p>
+        <ul class="list-disc ml-5 space-y-1">
+          <li>Improved property visibility through consistent digital marketing.</li>
+          <li>Maintained organized administrative tracking systems.</li>
+          <li>Contributed to successful tenant placements during project term.</li>
+        </ul>
       </div>
+    </div>
 
+    <!-- Other Experience -->
+    <div class="space-y-6 text-sm">
       <div>
         <h4 class="font-semibold">Human Resource / Account Supervisor</h4>
-        <p class="text-sm text-tan">SPD Jobs Inc | March 2025 – December 2025</p>
+        <p class="text-tan">SPD Jobs Inc | March 2025 – December 2025</p>
       </div>
 
       <div>
         <h4 class="font-semibold">Human Resources / Admin Supervisor</h4>
-        <p class="text-sm text-tan">A&S Subic Inc | April 2024 – February 2025</p>
+        <p class="text-tan">A&S Subic Inc | April 2024 – February 2025</p>
       </div>
 
       <div>
         <h4 class="font-semibold">Real Estate Admin (Remote)</h4>
-        <p class="text-sm text-tan">Smith | Garcia Realty | March 2022 – April 2025</p>
-      </div>
-
-      <div>
-        <h4 class="font-semibold">Human Resources / Admin Officer</h4>
-        <p class="text-sm text-tan">Grand Hoyah Hotel | January 2021 – February 2022</p>
+        <p class="text-tan">Smith | Garcia Realty | March 2022 – April 2025</p>
       </div>
 
       <div>
         <h4 class="font-semibold">Executive Assistant / Human Resources Officer</h4>
-        <p class="text-sm text-tan">ACEA Subic Bay | May 2017 – September 2020</p>
+        <p class="text-tan">ACEA Subic Bay | May 2017 – September 2020</p>
       </div>
+    </div>
+  </div>
+</section>
 
-      <!-- FB-BASED EXPERIENCE -->
-      <div class="pt-6 border-t border-tan">
-        <h4 class="font-semibold">Administrative & Virtual Support Services</h4>
-        <p class="text-sm text-tan">Freelance / Online</p>
-        <p class="text-sm mt-2">
-          Providing administrative support, HR assistance, real estate coordination,
-          document management, scheduling, and client communication using tools such as
-          Google Workspace, Canva, DocuSign, Monday.com, and Microsoft Office.
-        </p>
+<!-- PORTFOLIO -->
+<section id="portfolio" class="py-16 bg-cream">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold text-burgundy mb-8">
+      Property Marketing Samples
+    </h3>
+    
+    <p class="text-sm text-tan mb-6 italic">
+      Note: Details in images and videos are blurred for security purposes.
+    </p>
+
+    <!-- Images Section -->
+    <div class="mb-12">
+      <h4 class="text-lg font-semibold text-burgundy mb-4">Promotional Design Sample Images</h4>
+      
+      <div class="bg-white p-6 rounded shadow">
+        <div class="relative">
+          <button id="imageScrollPrev" class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-burgundy text-cream px-3 py-2 rounded hover:bg-opacity-90">❮</button>
+          
+          <div id="imagesGrid" class="overflow-x-auto">
+            <div class="flex gap-4 pb-2">
+              <div class="cursor-pointer group flex-shrink-0" onclick="showImageDetail(0)">
+                <img src="images/image_1.jpg" alt="Image 1" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showImageDetail(1)">
+                <img src="images/image_2.png" alt="Image 2" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showImageDetail(2)">
+                <img src="images/image_3.png" alt="Image 3" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showImageDetail(3)">
+                <img src="images/image_4.png" alt="Image 4" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showImageDetail(4)">
+                <img src="images/image_5.png" alt="Image 5" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showImageDetail(5)">
+                <img src="images/image_6.png" alt="Image 6" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>              
+              <!-- Add more image thumbnails as needed (up to 10) -->
+            </div>
+          </div>
+          
+          <button id="imageScrollNext" class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-burgundy text-cream px-3 py-2 rounded hover:bg-opacity-90">❯</button>
+        </div>
+
+        <div id="imagesDetail" class="border-t pt-6 mt-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <img id="selectedImage" src="images/image_1.jpg" alt="Selected Image" class="w-full h-auto object-cover rounded">
+            </div>
+            <div>
+              <h5 id="selectedImageSubject" class="text-lg font-semibold text-burgundy mb-3">Promotional Design Sample 1</h5>
+              <p id="selectedImageDesc" class="text-sm text-gray-600 leading-relaxed">I designed this real estate promotional graphic to showcase the property in a professional and visually engaging way. The bold “For Sale” headline immediately draws attention, while the carefully selected interior and exterior images highlight the home’s best features. I structured the layout to keep the information clear and easy to scan, including key details such as the address, property size, and room count. The clean typography and cohesive color palette reinforce a strong, polished real estate brand presence across digital and print platforms.</p>
+            </div>
+          </div>
+        </div>
+        
       </div>
+    </div>
 
+    <!-- GIFs Section -->
+    <div>
+      <h4 class="text-lg font-semibold text-burgundy mb-4">Promotional Video Sample</h4>
+      
+      <div class="bg-white p-6 rounded shadow">
+        <div class="relative">
+          <button id="gifScrollPrev" class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-burgundy text-cream px-3 py-2 rounded hover:bg-opacity-90">❮</button>
+          
+          <div id="gifsGrid" class="overflow-x-auto">
+            <div class="flex gap-4 pb-2">
+              <div class="cursor-pointer group flex-shrink-0" onclick="showGifDetail(0)">
+                <img src="images/GIF_1.gif" alt="GIF 1" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showGifDetail(1)">
+                <img src="images/GIF_2.gif" alt="GIF 2" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showGifDetail(2)">
+                <img src="images/GIF_3.gif" alt="GIF 3" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showGifDetail(3)">
+                <img src="images/GIF_4.gif" alt="GIF 4" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showGifDetail(4)">
+                <img src="images/GIF_5.gif" alt="GIF 5" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <div class="cursor-pointer group flex-shrink-0" onclick="showGifDetail(5)">
+                <img src="images/GIF_6.gif" alt="GIF 6" class="w-32 h-32 object-cover rounded group-hover:opacity-75">
+              </div>
+              <!-- Add more GIF thumbnails as needed (up to 10) -->
+            </div>
+          </div>
+          
+          <button id="gifScrollNext" class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-burgundy text-cream px-3 py-2 rounded hover:bg-opacity-90">❯</button>
+        </div>
+
+        <div id="gifsDetail" class="border-t pt-6 mt-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <img id="selectedGif" src="images/GIF_1.gif" alt="Selected GIF" class="w-full h-auto object-cover rounded">
+            </div>
+            <div>
+              <h5 id="selectedGifSubject" class="text-lg font-semibold text-burgundy mb-3">Promotional Video Sample 1</h5>
+              <p id="selectedGifDesc" class="text-sm text-gray-600 leading-relaxed">I created this real estate promotional video to dynamically showcase the property and capture buyers’ attention through motion and storytelling. The video highlights aerial views, exterior curb appeal, and key interior spaces while clearly displaying essential details such as square footage, bedrooms, bathrooms, and a strong call-to-action. I structured the visuals with bold headlines like “Just Listed” to immediately grab attention and maintain brand consistency. This video is designed for social media, listing platforms, and digital ads to increase engagement, generate inquiries, and drive private showings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold text-burgundy mb-6">Core Skills</h3>
+
+    <div class="grid md:grid-cols-2 gap-6 text-sm">
+      <ul class="space-y-2">
+        <li>• Property Listing Management</li>
+        <li>• Tenant Communication</li>
+        <li>• Lease Documentation Support</li>
+        <li>• Administrative Coordination</li>
+      </ul>
+
+      <ul class="space-y-2">
+        <li>• Facebook Marketing</li>
+        <li>• Canva Graphic Design</li>
+        <li>• Google Workspace</li>
+        <li>• Microsoft Office</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -128,8 +272,8 @@
   <h3 class="text-2xl font-semibold text-burgundy mb-6">Contact Me</h3>
 
   <div class="space-y-2 text-sm">
-    <p>Email Address: <a href="mailto:monterubyjean@gmail.com" class="text-burgundy">monterubyjean@gmail.com</a></p>
-    <p>Phone Number: +63 946 707 0045</p>
+    <p>Email: <a href="mailto:monterubyjean@gmail.com" class="text-burgundy">monterubyjean@gmail.com</a></p>
+    <p>Phone: +63 946 707 0045</p>
   </div>
 </section>
 
@@ -144,7 +288,74 @@
   btn.addEventListener('click', () => {
     menu.classList.toggle('hidden');
   });
-</script>
 
+  // Image detail functionality
+  function showImageDetail(index) {
+    const images = ['images/image_1.jpg', 'images/image_2.png', 'images/image_3.png', 'images/image_4.png', 'images/image_5.png', 'images/image_6.png'];
+
+    const subjects = ['Promotional Design Sample 1', 'Promotional Design Sample 2', 'Promotional Design Sample 3', 'Promotional Design Sample 4', 'Promotional Design Sample 5', 'Promotional Design Sample 6'];
+
+    const descriptions = [
+      'I designed this real estate promotional graphic to showcase the property in a professional and visually engaging way. The bold “For Sale” headline immediately draws attention, while the carefully selected interior and exterior images highlight the home’s best features. I structured the layout to keep the information clear and easy to scan, including key details such as the address, property size, and room count. The clean typography and cohesive color palette reinforce a strong, polished real estate brand presence across digital and print platforms.',
+
+      'I created this property listing design to present the home in a modern, eye-catching format that appeals to potential buyers. By arranging multiple high-quality photos in a balanced collage layout, I was able to showcase different spaces while maintaining a clean and organized look. Important specifications are clearly displayed for quick reference, ensuring viewers get essential details at a glance. This design works effectively for social media posts, online listings, and marketing campaigns to increase visibility and engagement.',
+
+      'I developed this marketing piece to professionally advertise the property and enhance its online presentation. The layered image composition highlights both the exterior curb appeal and interior living spaces, giving viewers a comprehensive preview of the home. A strong headline and well-placed property details create a clear visual hierarchy, making the design both attractive and informative. This promotional material is ideal for digital ads, listing promotions, and client presentations to help generate interest and inquiries.',
+
+      'I created this open house graphic to professionally showcase the property and highlight its key features. The design clearly presents important details like the date, location, and specs while making the home visually appealing to attract potential buyers. I carefully arranged high-quality photos of the interior and exterior in a clean, eye-catching layout that emphasizes the property’s best attributes. The bold “Open House” headline immediately captures attention, while the color scheme and typography maintain a professional look that aligns with real estate branding. This graphic can be used for social media marketing, email campaigns, or printed materials to effectively promote the open house event and generate interest in the property.',
+
+      'I created this marketing piece to visually communicate the value and charm of the property while keeping the information clear and accessible. The structured layout guides the viewer’s eye from the featured images to the essential open house details, making it both attractive and informative. I used clean typography and a cohesive color palette to maintain a professional real estate look. This graphic is ideal for social media posts, listing promotions, and email outreach campaigns.',
+
+      'I developed this open house graphic to effectively showcase the property’s standout features and create strong first impressions. The bold headline captures attention right away, while the supporting images provide a glimpse into the home’s design and layout. Key information such as the schedule, address, and specifications is presented clearly to ensure easy readability. This promotional design helps strengthen online presence and supports strategic marketing efforts to drive attendance and buyer interest.'
+    ];
+    
+    document.getElementById('selectedImage').src = images[index];
+    document.getElementById('selectedImageSubject').textContent = subjects[index];
+    document.getElementById('selectedImageDesc').textContent = descriptions[index];
+  }
+
+  // GIF detail functionality
+  function showGifDetail(index) {
+    const gifs = ['images/GIF_1.gif', 'images/GIF_2.gif', 'images/GIF_3.gif', 'images/GIF_4.gif', 'images/GIF_5.gif', 'images/GIF_6.gif'];
+
+    const subjects = ['Promotional Video Sample 1', 'Promotional Video Sample 2', 'Promotional Video Sample 3', 'Promotional Video Sample 4', 'Promotional Video Sample 5', 'Promotional Video Sample 6'];
+
+    const descriptions = ['I created this real estate promotional video to dynamically showcase the property and capture buyers’ attention through motion and storytelling. The video highlights aerial views, exterior curb appeal, and key interior spaces while clearly displaying essential details such as square footage, bedrooms, bathrooms, and a strong call-to-action. I structured the visuals with bold headlines like “Just Listed” to immediately grab attention and maintain brand consistency. This video is designed for social media, listing platforms, and digital ads to increase engagement, generate inquiries, and drive private showings.',
+
+    'I created this “Just Listed” promotional video to generate immediate interest and create excitement around the new property on the market. The video combines engaging visuals, smooth transitions, and clear on-screen details to highlight the home’s key features while encouraging viewers to schedule a private showing. It’s designed to quickly capture attention on social media and drive early inquiries.',
+    
+    'I created this real estate promotional video to dynamically showcase the property and capture buyers’ attention through motion and storytelling. The video highlights aerial views, exterior curb appeal, and key interior spaces while clearly displaying essential details such as square footage, bedrooms, bathrooms, and a strong call-to-action. I structured the visuals with bold headlines like “Just Listed” to immediately grab attention and maintain brand consistency. This video is designed for social media, listing platforms, and digital ads to increase engagement, generate inquiries, and drive private showings.',
+
+    'I created this property marketing video to showcase the home’s interior and exterior in a compelling and engaging format. The combination of high-quality visuals, bold headlines, and a clear call-to-action ensures the listing stands out across digital platforms. This video is ideal for boosting engagement and generating qualified leads.',
+
+    'I designed this open house promotional video to build anticipation and increase event attendance. The video highlights the property’s most attractive spaces while clearly presenting the date, time, and location details. Its eye-catching format makes it perfect for social media campaigns and event promotions.',
+
+    'I created this open house video to effectively invite potential buyers to tour the property in person. By combining engaging visuals with clear event information and a strong call-to-action, the video encourages viewers to mark their calendars and attend. It’s optimized for digital marketing to maximize reach and drive foot traffic.',
+
+    ];
+    
+    document.getElementById('selectedGif').src = gifs[index];
+    document.getElementById('selectedGifSubject').textContent = subjects[index];
+    document.getElementById('selectedGifDesc').textContent = descriptions[index];
+  }
+
+  // Horizontal scroll functionality
+  function setupHorizontalScroll(gridId, prevBtnId, nextBtnId) {
+    const grid = document.getElementById(gridId);
+    const prevBtn = document.getElementById(prevBtnId);
+    const nextBtn = document.getElementById(nextBtnId);
+
+    prevBtn.addEventListener('click', () => {
+      grid.scrollBy({ left: -150, behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+      grid.scrollBy({ left: 150, behavior: 'smooth' });
+    });
+  }
+
+  setupHorizontalScroll('imagesGrid', 'imageScrollPrev', 'imageScrollNext');
+  setupHorizontalScroll('gifsGrid', 'gifScrollPrev', 'gifScrollNext');
+</script>
 </body>
 </html>
